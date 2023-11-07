@@ -14,3 +14,9 @@ fun main() = application {
 fun AppDesktopPreview() {
   App()
 }
+
+@Preview
+@Composable
+fun GreetingsPreview() {
+  Greetings()
+}
